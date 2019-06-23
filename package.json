@@ -3,8 +3,7 @@
   "version": "0.3.0",
   "description": "Redis Google Sheets sync.",
   "main": "lib/index.js",
-  "bin": {
-  },
+  "bin": {},
   "scripts": {
     "lint": "eslint --cache src",
     "start": "node7 --harmony lib/index.js"
@@ -18,7 +17,7 @@
     "redis-app": "^0.11.6"
   },
   "devDependencies": {
-    "eslint": "^3.12.2"
+    "eslint": "^6.0.0"
   },
   "repository": {
     "type": "git",
